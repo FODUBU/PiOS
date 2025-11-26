@@ -14,14 +14,12 @@ We are offering projects github hosting under the `pi-apps` organization so that
 Create a PR on this repository adding your application's information to the [PiOS App List](/list.md) table. Follow the formatted row template given on that doc, and fill in the below information as incomplete submissions will be rejected.  
   
 Information necessary for the PR to be approved:
-- Category (If you need a new Category add it directly in the PR)
-- Title 
-  - Can be in the form of “App_Name for Pi”, “App_Name on Pi”, “App_Name”, but not in the form of “Pi App_Name” 
-  to avoid confusion with apps developed by the Pi Core Team
-  - You must include the following language in your code:  Pi, Pi Network and the Pi logo are trademarks of the Pi Community Company.
-- Description - Short description about what the application aims to achieve
-- Programming Languages + Framework to be used
-- Link to Pi Brainstorm project proposal (project name until feature is ready)
+-FODUBU is a wide  Utility Fed Company
+- Fodubu,Main app;Trade-Agri-Connect a TRACO-MARKERTPLACE & PiAppStudio1;SETRA MARKETPLACE PiAppStudio2 
+-FODUBU powered by  Pi, Pi Network and the Pi logo are trademarks of the Pi Community Company.
+-FODUBU is an Utility Fed and Multisector Company that working in 3 Dapps Fodubu Main Market app ;TRACO-MARKERTPLACE( enlarging ,digitalizing agricultural &distributing seeds to Branches);S.E.TRA (SETRA MARKETPLACE)(Save Environmental Trade Marketplace),
+- PiJavascript@sdk(Pi go), React&Vite Project,Nodejs&Express
+- Pi Brainstorm project proposal (https://brainstorm.pinet.com/project/68b6d0be045f663593b54b34)
 
 Information NOT necessary for the PR to be approved:
 - Link To Repo - Core Team will fill this in upon PR approval
