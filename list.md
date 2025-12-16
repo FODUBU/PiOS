@@ -26,8 +26,8 @@ To add your project to the list follow the instructions [here](/README.md)
 
 ### Adding a new row to the table
 **To add a new row copy the formated line below, paste a copy onto the line below the last row of the Pi-OS contributions table and update it with your app's information**
-| Title | Description | Category | Programming Language/Framework | Updated by Pi-CT |Brainstorm link | (When available) | (When available) |
-
+| Demo | This application showcases the authentication and payment functionalities of the Pi SDK. | Consumer Utility | , MongoDB | [demo](https://github.com/pi-apps/demo) | N/A | [pi://demo.pi](pi://demo.pi) | N/A |
+| Pi Commerce Apps | Mock Ups and Material for the Pi Commerce Hackathon in 2024 | Social Media | Figma | [pi-commerce-app](https://github.com/pi-apps/pi-commerce-app)|  | | |
 
 ### Potential App Categories
 - Social Media
