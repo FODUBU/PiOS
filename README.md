@@ -21,52 +21,70 @@ Vision
 To become a trusted Pi-powered digital infrastructure for trade and development across communities and markets.
 
 
-🧩 Applications Covered (3 DApps)
+## 🎯 The Three Applications
 
-1️⃣ FODUBU – Main Unified App
+### 1. FODUBU - Main Unified App
+- **URL**: https://trade.fodubu.com
+- **Purpose**: Central marketplace and utility hub
+- **Role**: Trade and service aggregation, entry point to ecosystem
+- **Status**: each  app with App ID (across ecosystem)
 
-Central marketplace and utility hub
+### 2. TRACO - Agri-Connect Marketplace
+- **URL**: https://traco.fodubu.com
+- **Purpose**: Digital agricultural marketplace
+- **Features**:
+  - Buying/selling agricultural products
+  - Seed distribution to branches and farmers
+  - Agricultural value-chain connectivity
+- **Status**: Has App ID from Pi App Studio
 
-Trade and service aggregation
-
-Entry point to the FODUBU ecosystem
-
-
-2️⃣ TRACO – Agri-Connect Marketplace
-
-(Trade-Agri-Connect)
-
-Digital agricultural marketplace
-
-Buying and selling of agricultural products
-
-Seed distribution to branches and farmers
-
-Agricultural value-chain connectivity
-
-
-3️⃣ SETRA – Eco Marketplace
-
-(Save Environmental Trade)
-
-Environment-focused marketplace
-
-Sustainable and eco-friendly trade
-
-Promotion of environmental responsibility through commerce
+### 3. SETRA - Eco Marketplace
+- **URL**: https://setra.fodubu.com (also https://setra2493.pinet.com)
+- **Purpose**: Environment-focused sustainable trade
+- **Features**:
+  - All services documented in `SETRA-PROGRAMS-AND-SERVICES.md`
+  - Reforestation, Aquaculture, Transportation, Clean Energy, Construction
+- **Status**: has its ID From App Studio
 
 
-💱 Pi Network Integration
+## 🏗️ Technical Architecture
 
-All FODUBU applications:
+### Current Stack
 
-Use Pi as the means of payment
+#### Frontend
+- ReactJS with Vite
+- Pi JavaScript SDK (`@pi-apps/pi-sdk`)
+- Pi Browser-compatible UI
 
-Run inside the Pi Browser
+#### Backend (fodubu-unified-api)
+- **URL**: https://api.fodubu.com
+- Node.js + Express.js
+- Pi Backend SDK (`@pi-apps/backend`)
+- Stellar SDK (`@stellar/stellar-sdk`)
+- Secure Pi payment verification
 
-Integrate Pi authentication
+#### Database
+- MongoDB Atlas
+- Environment-based configuration
+- CI-ready structure
 
-Verify payments via secure backend validation
+-
+
+## 🔗 Repository Structure
+
+### Main Repositories
+1. **PiOS (This repo)**: https://github.com/FODUBU/PiOS
+   - Documentation and project overview
+   - Open source component
+
+2. **fodubu-api**: https://github.com/FODUBU/fodubu-api
+   - Unified backend for all 3 apps
+   - Private repository (read-only access on request)
+
+3. **Frontend Repos**
+   - FODUBU Main frontend: https://github.com/FODUBU/fodubu
+   - TRACO-MARKETPACE  v0: https://github.com/FODUBU/TRACO-MARKETPLACE
+   - SETRA-MARKETPLACE v0: https://github.com/FODUBU/SETRA-MARKETPLACE
 
 
 > Important Disclaimer
@@ -74,112 +92,6 @@ FODUBU is an independent community-built project.
 
 Pi, Pi Network, and the Pi logo are trademarks of Pi Community Company.
 This project is not affiliated with nor endorsed by Pi Network Core Team
-
-🏗 Technical Architecture
-
-Frontend
-
-ReactJS
-
-Vite
-
-Pi JavaScript SDK (@pi-apps/pi-sdk)
-
-Pi Browser–compatible UI
-
-
-Backend
-
-Node.js
-
-Express.js
-
-Pi Backend SDK (@pi-apps/backend)
-
-Stellar SDK (@stellar/stellar-sdk)
-
-Secure Pi payment verification
-
-
-Database & Infrastructure
-
-MongoDB Atlas
-
-Environment-based configuration
-
-CI-ready structure
-
-
-🔗 Repositories & Links
-
-Backend (Unified API)
-
-FODUBU Unified API
-https://github.com/FODUBU/fodubu-api
-
-
-Pi Brainstorm
-
-FODUBU Pi Brainstorm Project
-https://brainstorm.pinet.com/project/68b6d0be045f663593b54b34
-
-
-Live Frontends
-
-FODUBU Trade Portal
-https://trade.fodubu.com
-
-TRACO Marketplace
-https://traco.fodubu.com
-
-SETRA Marketplace
-https://setra.fodubu.com
-
-🔐 Security & Compliance
-
-All Pi payments are verified server-side
-
-Secrets are managed via environment variables
-
-No private keys are exposed in frontend code
-
-Backend follows Pi Network payment verification flow
-
-Repository includes:
-
-SECURITY.md
-
-.env.example
-
-Controlled access for production secrets
-
-Review & Transparency
-
-Core backend is maintained in a private repository
-
-Read-only access or temporary reviewer access can be granted upon request
-
-CI pipelines are used for:
-
-Code quality checks
-
-Build verification
-
-
-Public documentation and architecture are fully transparent
-
-Open Source & Community
-
-This project supports:
-
-Open standards
-
-Community contributions
-
-Ethical development principles
-
-Respect for Pi Network ecosystem rules
-
 
 Contribution guidelines and code of conduct are provided in the repository.
 
